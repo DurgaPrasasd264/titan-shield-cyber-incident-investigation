@@ -1,0 +1,3 @@
+EmailEvents
+| where ThreatTypes has "Phish"
+| project Timestamp, SenderFromAddress, RecipientEmailAddress, Subject
